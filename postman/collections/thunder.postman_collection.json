@@ -1,0 +1,123 @@
+{
+  "info": {
+    "_postman_id": "5f19db6a-84c8-4b2b-b5ac-7902ea310496",
+    "name": "thunder",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "37284154",
+    "_collection_link": "https://sistema-escolar.postman.co/workspace/a16adc55-917a-4c92-835d-6bb8b9f0b9ec/collection/37284154-5f19db6a-84c8-4b2b-b5ac-7902ea310496?action=share&source=collection_link&creator=37284154"
+  },
+  "item": [
+    {
+      "name": "Usuário",
+      "item": [
+        {
+          "name": "criar usuario",
+          "id": "47024c79-7829-4c26-aade-11f5aa88b635",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"username\": \"oo\",\r\n    \"password\": \"123\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:5000/api/auth/register",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "5000",
+              "path": [
+                "api",
+                "auth",
+                "register"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "login",
+          "id": "580d93bd-b753-44f0-9a4b-f3879f26f4e4",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"username\": \"res\",\r\n  \"password\": \"123\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:5000/api/auth/login",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "5000",
+              "path": [
+                "api",
+                "auth",
+                "login"
+              ]
+            }
+          },
+          "response": []
+        }
+      ],
+      "id": "32a6ede0-b315-49ab-9938-357fd042b54e"
+    },
+    {
+      "name": "Books",
+      "item": [
+        {
+          "name": "GetBooks",
+          "id": "4e576522-a153-4e9b-b5ec-cf4be0cebeae",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc2NDIwMjUwNywianRpIjoiODVlMDk1OGQtNDdhMC00MTZlLTllZWYtNTA1Nzk0NGE0ZWU5IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImI3NmJjODdkLTNmNzgtNDhhYS1hNWEwLWJjZjUxYWIxMzY2MSIsIm5iZiI6MTc2NDIwMjUwNywiZXhwIjoxNzY0MjA2MTA3fQ.vSkyCCDRoI7e1fp6aLDVIqq131JNDBPT7Zzfy38U9N4",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "GET",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"username\": \"res\",\r\n  \"password\": \"123\"\r\n}"
+            },
+            "url": {
+              "raw": "http://localhost:5000/api/books",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "5000",
+              "path": [
+                "api",
+                "books"
+              ]
+            }
+          },
+          "response": []
+        }
+      ],
+      "id": "7730600d-5ac4-49f7-97d8-a0c0091ccba9"
+    }
+  ]
+}
