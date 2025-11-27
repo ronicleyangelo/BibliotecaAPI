@@ -1,0 +1,32 @@
+{
+  "users": {
+    "1": {
+      "id": "ed143783-3544-4c64-802b-654eadd7db35",
+      "username": "roni",
+      "email": null,
+      "password_hash": "pbkdf2:sha256:600000$ETczhzpb8GTi2K6c$2cac60e8f52bb0c772c270ef0f2dbe734781287dbbbed22d664c7148179caccc",
+      "created_at": "2025-11-26T23:29:18.985463"
+    },
+    "2": {
+      "id": "b549bc27-71dd-4b46-a745-2c9e90614aed",
+      "username": "ro",
+      "email": "roni@roni.com.br",
+      "password_hash": "pbkdf2:sha256:600000$Si1RCZuy3lDDetsk$47a6693192cd56100141428e4e6a170e91a4fcfe713e2c975c62c67dc31718d7",
+      "created_at": "2025-11-26T23:31:31.120979"
+    },
+    "3": {
+      "id": "b76bc87d-3f78-48aa-a5a0-bcf51ab13661",
+      "username": "res",
+      "email": "roni@roni.com.br",
+      "password_hash": "scrypt:32768:8:1$s769pE6lWeMUOOrX$083f5b493c359b58657464c3616d8f69880657f8b4d69cc7cbb1d0be9caeb1da32ae7f127a919d6777d91093969b39e5f78188f313cacff6de2c1b417dc2115a",
+      "created_at": "2025-11-26T23:55:10.303898"
+    },
+    "4": {
+      "id": "e4738568-c431-4029-8f46-27fd6f9c7073",
+      "username": "oo",
+      "email": null,
+      "password_hash": "scrypt:32768:8:1$ATAXHLhJoShr2GZi$a4786b2ee319e928a4505466727be935802e7169cbdddb51e83f89792cb97e2d94a1f908eaaec4c49a87ab420a522f1bf61ed71a74be8b04a0e1632b6835760f",
+      "created_at": "2025-11-27T00:02:01.933085"
+    }
+  }
+}
